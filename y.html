@@ -1,0 +1,117 @@
+<html>
+<head>
+<title></title>
+<!-- Apply styles to html elements -->
+<style>
+*{
+margin:0; padding:0; boxsizing:border-box;
+}
+header{
+width: 100%; height: 100vh;
+background-color: white;
+background-repeat: no-repeat;
+background-size: cover;
+}
+nav{
+width: 100%; height: 15vh;
+background: pink;
+display: flex; justify-content: space-between;
+align-items: center;
+}
+nav .mainmenu{
+width: 40%;
+display: flex; justify-content: space-around;
+}
+main{
+width: 100%; height: 85vh;
+display: flex; justify-content: center;
+align-items: center;
+text-align: center;
+}
+section h3{
+letter-spacing: 3px; font-weight: 200;
+}
+section h1{
+text-transform: uppercase;
+
+</style>
+</head>
+<body>
+<!--Let us create a simple menu using the navigation tags-->
+<!--Use header to indicate that manu will be a part of header -->
+<header>
+<nav>
+<div class = "logo" <h3 style="color:black;">Employee Interests Survey </h3></div>
+<!--Lets define the menu items now-->
+<div class = "mainmenu">
+<a href="https://hackr.io/tutorials/learn-html-5">Home</a>
+<a href="https://hackr.io/tutorials/learn-html-5">About Us</a>
+<a href="file:///C:/Users/LENOVO/Documents/html/bugdaiwik.html">Contact Us</a>
+<a href="file:///C:/Users/LENOVO/Documents/html/reference.html?first+name=zx&last+name=aa&address=aa&street=aa&city=aa&state=aa&zip=179999999999999999999999999999999999999999999&country=Lebanon&contact=bhy&email=nb%40gmail.com&gender=other&rating2=good">Form important </a>
+</div>
+</nav>
+<!--Let us create the main section now, if you are not using html5, use div tags-->
+<main>
+<section>
+<!--Check out the styling elements for this div class - change_text -->
+<!-- as it is a survey form, we will need to submit the details, hence we use form -->
+<!-- We can give absolute url, or relative url like /nextpage.jsp, and specify POST or GET method -->
+</form>
+<marquee>
+<b><i>Employee Interests Survey</i></b>
+</marquee>
+<br>
+<br>
+<form action="file:///C:/Users/LENOVO/Documents/html/ds.html">
+<div align="center">
+<!--Adds a heading to the form-->
+<h1>Employee Interests Survey form</h1>
+<BR>
+Enter your name:
+<!-- Input type text for small texts, specify size -->
+<input type="text" name="UserName" size=35 maxlength=35 value="">
+<!--Adds spaces - remove and see what happens -->
+<BR>
+<BR>
+Enter your department:
+<input type="text" name="Deptt" size=35 maxlength=35 value=""> </br> </br>
+Tell us a little about yourself:
+<!-- For writing lot of text like descriptions with text wrapping,
+if you dont want text wrapping, you can add wrap = "off" (horizontal scrollbar -->
+<textarea name="Comments" cols=30 rows=4></textarea> </br> </br>
+<BR>
+Do you exercise at home?
+<!-- Radio buttons help you choose one out of the many values -->
+<input type="radio" name="exe" value=1>Yes
+<input type="radio" name="exe" value=2>No
+</p>
+<BR>
+How do you like to read about your favorite topics?
+<p>
+<!--Checkbox lets you select multiple options -->
+<input type="checkbox" name="Books">Books
+<input type="checkbox" name="Web">Online resources
+<input type="checkbox" name="Phone">Phone apps
+<input type="checkbox" name="Magazines">Magazines
+</p>
+<BR>
+What genre of movies do you like?
+<!--Select box lets you choose one of the multiple dropdown options-->
+<select name="moviepref" ><option>
+<option value=1 selected = "true">comedy
+<option value=2 >romance
+<option value=3 >thriller
+<option value=4 >horror
+<option value=5 >biopic
+</select>
+</br></br>
+<!--submits the information entered in the form by the user -->
+
+  <a href="ds.html"><input type=submit value="Submit form" ></a>
+</div>
+</form>
+</section>
+</main>
+</header>
+</body>
+</html>
